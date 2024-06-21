@@ -45,4 +45,35 @@ body {
   border-radius: 4px;
   box-shadow: 5px 8px 8px #00000020,
   -5px -8px 8px #ffffff;
+  transition: .1s;
+}
+
+.btns .row button:hover{
+    box-shadow: inset 5px 5px 8px rgba(16,16,16,.1),
+    inset -5px -5px 8px #ffffff;
+
+    background: white;
+}
+
+#eval{
+    background: #ce292920;
+    box-shadow: inset 5px 5px 8px #00000020,
+    inset -5px -5px 8px #eba6a620;
+}
+
+#eval:hover{
+    box-shadow: inset 5px 5px 8px #ff000020,
+    inset -5px -5px 8px #00000020;
+}
+
+#ac {
+    background: aquamarine;
+    box-shadow: inset 5px 5px 8px #00000020,
+    inset -5px -5px 8px #eba6a620;
+}
+
+#ac:hover {
+   
+    box-shadow: inset 5px 5px 8px #26d6ca20,
+    inset -5px -5px 8px #eba6a620;
 }
